@@ -29,6 +29,7 @@ Every name in these lists is 1 of 3 things: a service's own published domain, a 
 | **Shopping apps** | Temu and its content network | [`lists/shopping.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/shopping.txt) |
 | **Pinterest** | Pinterest and its image hosts | [`lists/pinterest.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/pinterest.txt) |
 | **Social apps beyond the big four** | Threads, Reddit, Tumblr, Bluesky and 9GAG (Facebook, Instagram, TikTok and Snapchat are on the large social lists) | [`lists/social.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/social.txt) |
+| **Mobile game publishers** | Roblox, Free Fire, PUBG Mobile, Call of Duty Mobile, Supercell, Mobile Legends, Fortnite, Genshin, Candy Crush, Pokemon GO, 8 Ball Pool, Subway Surfers, Among Us, eFootball, EA SPORTS FC and the studios behind them | [`lists/games-mobile.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/games-mobile.txt) |
 | **YouTube clients and video downloaders** | Snaptube, Lark Player, Pure Tuber, Vidmate, TubeMate, the web downloaders, and the public Invidious and Piped instances that keep YouTube playing when YouTube itself is blocked | [`lists/video-downloaders.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/video-downloaders.txt) |
 
 ## How to use them

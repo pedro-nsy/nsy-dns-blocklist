@@ -75,6 +75,26 @@ LISTS = {
     ('Web downloaders (TikTok, YouTube, Tubidy)', ['snaptik.app','ssstik.io','ssstik.link','ssstwitter.com','reelsvideo.io','tikmate.online','y2mate.com','y2mate.is','yt1s.com','savefrom.net','sfrom.net','tubidy.ws','tubidy.llc','tubidy.cool','tubidy.mobi','tubidy.com','tubidy.buzz','tubidy.cv']),
     ('Invidious and Piped instances (third-party YouTube front ends that proxy the video through their own hosts; instance lists read 2026-09-30)', ['invidious.io','nadeko.net','nerdvpn.de','f5.si','chocolatemoo53.com','tiekoetter.com','piped.video','kavin.rocks','leptons.xyz','nosebs.ru','privacy.com.de','adminforge.de','piped.yt','drgns.space','ggtyler.dev','owo.si','ducks.party','codespace.cz','reallyaweso.me','private.coffee','darkness.services','orangenet.cc','libretube.dev']),
    ]),
+ 'games-mobile': ('Mobile game publishers',
+   'The publishers and titles behind the games most installed on Android and iPhone in Mexico: Roblox, Free Fire (Garena), PUBG Mobile, Call of Duty Mobile, Supercell, Mobile Legends (Moonton), Fortnite (Epic), Genshin Impact (HoYoverse), Candy Crush (King), Pokemon GO (Niantic, now Scopely), 8 Ball Pool (Miniclip), Subway Surfers (SYBO), Among Us, eFootball (Konami), EA SPORTS FC, Playrix, Zynga, Voodoo, Kwalee and Lion Studios. Whole publisher domains, so their account, support and store pages go too. Ad networks the games share with other apps (AppLovin, Unity Ads, ironSource) are deliberately not here.',
+   [
+    ('Roblox', ['roblox.com','rbxcdn.com','rbxtrk.com','rbxinfra.net','roblox.net','roblox.us','roblox.co.uk']),
+    ('Garena and Free Fire', ['garena.com','freefiremobile.com','ffesports.com','garena.sg']),
+    ('PUBG Mobile (Tencent, Level Infinite)', ['pubgmobile.com','gpubgm.com','amsoveasea.com']),
+    ('Call of Duty Mobile (Activision)', ['callofduty.com','activision.com']),
+    ('Supercell', ['supercell.com','supercell.net','clashofclans.com','mo.co']),
+    ('Moonton (Mobile Legends)', ['moonton.com','viztagame.com']),
+    ('Epic Games (Fortnite)', ['epicgames.com','unrealengine.com','fortnite.com']),
+    ('HoYoverse', ['hoyoverse.com','mihoyo.com']),
+    ('King (Candy Crush)', ['king.com','candycrushsaga.com','midasplayer.net','midasplayer.cloud']),
+    ('Niantic and Scopely (Pokemon GO, Monopoly GO, Stumble Guys)', ['nianticlabs.com','nianticstatic.com','pokemongo.com','scopely.com','withbuddies.com']),
+    ('Miniclip (8 Ball Pool, Agar.io)', ['miniclip.com','8ballpool.com','agar.io','miniclippt.com']),
+    ('SYBO (Subway Surfers)', ['sybogames.com','subwaysurfers.com','subwaysurferscity.com']),
+    ('Innersloth (Among Us)', ['innersloth.com','among.us']),
+    ('Konami (eFootball)', ['konami.net','konami.com']),
+    ('Electronic Arts (EA SPORTS FC Mobile)', ['ea.com','easports.com','eamobile.com','tnt-ea.com']),
+    ('Playrix, Zynga, Voodoo, Kwalee, Lion Studios', ['playrix.com','zynga.com','zyngagames.com','voodoo.io','kwalee.com','lionstudios.cc']),
+   ]),
 }
 os.makedirs(ROOT + '/lists', exist_ok=True)
 counts = {}
