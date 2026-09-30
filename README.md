@@ -55,4 +55,8 @@ Open an issue. Tell us the domain, what it belongs to, and where you saw it. If 
 
 Netflix names come from [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community).
 
-Maintained by Pedro Neufeld (Neufeld Systems).
+Maintained by Neufeld Systems.
+
+## Licence
+
+[MIT](LICENSE). Use the lists however you like. They come with no warranty.
