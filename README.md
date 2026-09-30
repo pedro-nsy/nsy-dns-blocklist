@@ -55,6 +55,8 @@ Open an issue. Tell us the domain, what it belongs to, and where you saw it. If 
 
 Netflix names come from [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community).
 
+Some VPN app backend names come from the public app traffic data at [AppGoblin](https://appgoblin.info).
+
 Maintained by Neufeld Systems.
 
 ## Licence
