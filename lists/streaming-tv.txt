@@ -1,8 +1,8 @@
 ! Title: NSY DNS Blocklist: TV and film streaming
-! Description: Netflix and the Mediastream platform used by Latin American live TV and radio apps.
+! Description: Netflix, ViX and the other TV, film and live-video services reachable from Mexico, the Mediastream platform used by Latin American live TV and radio apps, and the video hosts of the platforms that share their apex with other services (Apple TV+, Prime Video, Mercado Play).
 ! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
 ! Last modified: 2026-09-30
-! Entries: 11
+! Entries: 141
 ! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
 !
 ! Netflix (names from v2fly/domain-list-community, data/netflix)
@@ -19,3 +19,143 @@
 !
 ! Mediastream
 ||mdstrm.com^
+!
+! ViX and TelevisaUnivision (Akta/Anvato video platform on Google Cloud)
+||vix.com^
+||vix.tv^
+||vixplus.com^
+||lura.live^
+||akta.tech^
+||anvato.com^
+||prende.tv^
+||univision.com^
+||univisionnow.com^
+||tudn.com^
+||tudn.mx^
+||lasestrellas.tv^
+||nmas.com.mx^
+||televisa.com^
+||uvnimg.com^
+!
+! TV Azteca
+||tvazteca.com^
+||adn40.mx^
+||aztecajalisco.com^
+||aztecabajio.com^
+||aztecachihuahua.com^
+||aztecapuebla.com^
+||aztecayucatan.com^
+||aztecaveracruz.com^
+||aztecasinaloa.com^
+||aztecaqueretaro.com^
+||aztecaquintanaroo.com^
+||aztecamorelos.com^
+||aztecamichoacan.com^
+||aztecalaguna.com^
+||aztecaguerrero.com^
+||aztecaciudadjuarez.com^
+||aztecachiapas.com^
+||aztecaaguascalientes.com^
+||tvaztecabajacalifornia.com^
+||tvaztecasanluispotosi.com^
+!
+! Latin American and global streaming services (Claro video, Canela, Pluto TV, Tubi, Max, Disney+, Prime Video, Paramount+, Crunchyroll, DGO, Runtime, Samsung TV Plus, Plex, Xumo, DAZN, FOX One, ESPN, Mubi, Peacock, Fubo, Mercado Play)
+||clarovideo.com^
+||clarovideo.net^
+||canela.tv^
+||pluto.tv^
+||plutotv.net^
+||plutopreprod.tv^
+||tubitv.com^
+||tubi.io^
+||tubi.video^
+||adrise.tv^
+||max.com^
+||hbomax.com^
+||hbomaxcdn.com^
+||discomax.com^
+||hbogo.com^
+||hbonow.com^
+||hbo.com^
+||maxgo.com^
+||disneyplus.com^
+||disney-plus.net^
+||dssott.com^
+||dssedge.com^
+||bamgrid.com^
+||starplus.com^
+||primevideo.com^
+||amazonvideo.com^
+||aiv-cdn.net^
+||aiv-delivery.net^
+||pv-cdn.net^
+||atv-ps.amazon.com^
+||atv-ext.amazon.com^
+||av-na.amazon.com^
+||paramountplus.com^
+||pplusstatic.com^
+||cbsivideo.com^
+||crunchyroll.com^
+||crunchyrollcdn.com^
+||vrv.co^
+||gccrunchyroll.com^
+||directvgo.com^
+||runtime.tv^
+||samsungtvplus.com^
+||samsung.wurl.tv^
+||internetat.tv^
+||samsungcloud.tv^
+||plex.tv^
+||plex.direct^
+||plexapp.com^
+||plex.bz^
+||xumo.com^
+||xumo.tv^
+||dazn.com^
+||indazn.com^
+||dazndn.com^
+||dazn-api.com^
+||foxone.mx^
+||foxsports.com.mx^
+||espn.com.mx^
+||espncdn.com^
+||mubi.com^
+||peacocktv.com^
+||peacock.com^
+||fubo.tv^
+||play.mercadolibre.com.mx^
+!
+! Apple TV+ video hosts only (never the Apple apexes, which carry the App Store, iCloud and updates)
+||tv.apple.com^
+||tv.v.aaplimg.com^
+||hls-svod.itunes.apple.com^
+||hls-svod-ve.itunes.g.aaplimg.com^
+||hls-svod-aoc-ve.itunes.g.aaplimg.com^
+!
+! Live streaming and video sharing platforms (Twitch, Kick, Trovo, Nimo TV, Tango, Vimeo, Dailymotion, Rumble, Odysee, Coub)
+||twitch.tv^
+||ext-twitch.tv^
+||ttvnw.net^
+||jtvnw.net^
+||twitchcdn.net^
+||twitchsvc.net^
+||kick.com^
+||trovo.live^
+||nimo.tv^
+||tango.me^
+||vimeo.com^
+||vimeocdn.com^
+||vhx.tv^
+||vimeoondemand.com^
+||livestream.com^
+||dailymotion.com^
+||dmcdn.net^
+||dm-event.net^
+||rumble.com^
+||rmbl.ws^
+||rumble.cloud^
+||odysee.com^
+||odysee.tv^
+||odysee.live^
+||odycdn.com^
+||coub.com^

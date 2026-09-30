@@ -2,7 +2,7 @@
 ! Description: YouTube, its video hosts and its app API. Blocking googlevideo.com also stops YouTube video embedded in other sites.
 ! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
 ! Last modified: 2026-09-30
-! Entries: 5
+! Entries: 9
 ! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
 !
 ! YouTube
@@ -11,3 +11,9 @@
 ||ytimg.com^
 ||googlevideo.com^
 ||youtubei.googleapis.com^
+!
+! YouTube names the NextDNS service definition carries and ours did not
+||youtube-nocookie.com^
+||youtube.googleapis.com^
+||youtubekids.com^
+||yt3.ggpht.com^

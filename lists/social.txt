@@ -1,0 +1,20 @@
+! Title: NSY DNS Blocklist: Social apps beyond the big four
+! Description: Threads, Reddit, Tumblr, Bluesky and 9GAG. Facebook, Instagram, TikTok and Snapchat are on the large public social lists and are not repeated here.
+! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
+! Last modified: 2026-09-30
+! Entries: 12
+! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
+!
+! Threads, Reddit, Tumblr, Bluesky, 9GAG
+||threads.com^
+||threads.net^
+||reddit.com^
+||redd.it^
+||redditmedia.com^
+||redditstatic.com^
+||tumblr.com^
+||bsky.app^
+||bsky.social^
+||bsky.network^
+||9gag.com^
+||9cache.com^

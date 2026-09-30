@@ -20,14 +20,16 @@ Every name in these lists is 1 of 3 things: a service's own published domain, a 
 
 | List | What it blocks | Subscribe |
 |---|---|---|
-| **VPN and proxy apps** | VPN, proxy and anonymizer apps: the well-known brands, and small mobile VPN apps we found in real traffic | [`lists/vpn-proxy.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/vpn-proxy.txt) |
+| **VPN and proxy apps** | VPN, proxy and anonymizer apps: the well-known brands, small mobile VPN apps we found in real traffic, the publisher families behind them, and the IP-check services the apps use | [`lists/vpn-proxy.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/vpn-proxy.txt) |
 | **Encrypted DNS resolvers** | Public DoH and DoT resolvers that phones and browsers use to get around a local DNS filter | [`lists/encrypted-dns.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/encrypted-dns.txt) |
 | **Betting sites, Mexico** | Sports betting and casino sites under .mx names | [`lists/betting-mexico.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/betting-mexico.txt) |
-| **TV and film streaming** | Netflix, and the Mediastream platform used by Latin American live TV and radio apps | [`lists/streaming-tv.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/streaming-tv.txt) |
+| **TV and film streaming** | Netflix, ViX, TV Azteca, Claro video and the other TV, film and live-video services reachable from Mexico, plus the Mediastream platform used by Latin American live TV and radio apps | [`lists/streaming-tv.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/streaming-tv.txt) |
 | **YouTube** | YouTube, its video hosts and its app API | [`lists/youtube.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/youtube.txt) |
-| **Short video and short drama apps** | Clapper, CapCut, the ByteDance content hosts, and micro-drama apps | [`lists/short-video.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/short-video.txt) |
+| **Short video and short drama apps** | Kwai, SnackVideo, Likee, Bigo Live, Lemon8, Clapper, CapCut, the ByteDance content hosts, and micro-drama apps | [`lists/short-video.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/short-video.txt) |
 | **Shopping apps** | Temu and its content network | [`lists/shopping.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/shopping.txt) |
 | **Pinterest** | Pinterest and its image hosts | [`lists/pinterest.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/pinterest.txt) |
+| **Social apps beyond the big four** | Threads, Reddit, Tumblr, Bluesky and 9GAG (Facebook, Instagram, TikTok and Snapchat are on the large social lists) | [`lists/social.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/social.txt) |
+| **YouTube clients and video downloaders** | Snaptube, Lark Player, Pure Tuber, Vidmate, TubeMate, the web downloaders, and the public Invidious and Piped instances that keep YouTube playing when YouTube itself is blocked | [`lists/video-downloaders.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/video-downloaders.txt) |
 
 ## How to use them
 
@@ -56,6 +58,8 @@ Open an issue. Tell us the domain, what it belongs to, and where you saw it. If 
 Netflix names come from [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community).
 
 Some VPN app backend names come from the public app traffic data at [AppGoblin](https://appgoblin.info).
+
+Several streaming, social and video-platform names were checked against the per-service definitions of [NextDNS](https://github.com/nextdns/services) and [AdGuard](https://github.com/AdguardTeam/HostlistsRegistry), and the VPN app families against the FOCI 2025 paper "Hidden Links" and the publishers' own pages. The Invidious and Piped instance names come from the projects' own public instance lists.
 
 Maintained by Neufeld Systems.
 

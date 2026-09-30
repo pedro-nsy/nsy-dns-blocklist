@@ -1,0 +1,89 @@
+! Title: NSY DNS Blocklist: YouTube clients, video downloaders and third-party YouTube front ends
+! Description: Apps and sites that play or download YouTube, TikTok, Facebook and Instagram video through their own servers, so they keep working when the platforms themselves are blocked by name: Snaptube and Lark Player (Mobiuspace), Pure Tuber, Vidmate, TubeMate, YMusic, NewPipe, ReVanced, the web downloaders, and the public Invidious and Piped instances.
+! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
+! Last modified: 2026-09-30
+! Entries: 75
+! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
+!
+! Snaptube and Lark Player (Mobiuspace) and their backends
+||snaptube.com^
+||snaptube.app^
+||snaptubead.com^
+||snaptubeapp.com^
+||snapdownloads.com^
+||snaptube.in^
+||ad-snaptube.app^
+||snaptube.mx^
+||falconnet.app^
+||ad-vastvideo.com^
+||larkplayer.com^
+||larkplayerapp.com^
+||larkgame.com^
+||mobiuspace.net^
+||mobiuspace.com^
+!
+! Other YouTube clients and video downloader apps (Pure Tuber, Vidmate, TubeMate, YMusic, NewPipe, ReVanced, InsTube, Videoder, UC Browser)
+||puretuber.com^
+||premiumtuberapp.com^
+||vidmateapp.com^
+||vdmapk.com^
+||vidssave.com^
+||facebdownloader.com^
+||fasttik.com^
+||igvideodownloader.net^
+||vidmate.net^
+||tubemate.net^
+||ymusic.io^
+||newpipe.net^
+||revanced.app^
+||vanced.app^
+||instube.com^
+||videoder.com^
+||videoder.net^
+||ucweb.com^
+||ucshare.app^
+!
+! Web downloaders (TikTok, YouTube, Tubidy)
+||snaptik.app^
+||ssstik.io^
+||ssstik.link^
+||ssstwitter.com^
+||reelsvideo.io^
+||tikmate.online^
+||y2mate.com^
+||y2mate.is^
+||yt1s.com^
+||savefrom.net^
+||sfrom.net^
+||tubidy.ws^
+||tubidy.llc^
+||tubidy.cool^
+||tubidy.mobi^
+||tubidy.com^
+||tubidy.buzz^
+||tubidy.cv^
+!
+! Invidious and Piped instances (third-party YouTube front ends that proxy the video through their own hosts; instance lists read 2026-09-30)
+||invidious.io^
+||nadeko.net^
+||nerdvpn.de^
+||f5.si^
+||chocolatemoo53.com^
+||tiekoetter.com^
+||piped.video^
+||kavin.rocks^
+||leptons.xyz^
+||nosebs.ru^
+||privacy.com.de^
+||adminforge.de^
+||piped.yt^
+||drgns.space^
+||ggtyler.dev^
+||owo.si^
+||ducks.party^
+||codespace.cz^
+||reallyaweso.me^
+||private.coffee^
+||darkness.services^
+||orangenet.cc^
+||libretube.dev^
