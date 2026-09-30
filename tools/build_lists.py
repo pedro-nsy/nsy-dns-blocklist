@@ -101,6 +101,13 @@ LISTS = {
     ('Playrix, Zynga, Voodoo, Kwalee, Lion Studios', ['playrix.com','zynga.com','zyngagames.com','voodoo.io','kwalee.com','lionstudios.cc']),
     ('Game backends seen in real traffic (Tencent Level Infinite for PUBG Mobile; a casual-game publisher)', ['listdl.com','dailyinnovation.biz']),
    ]),
+ 'app-bloat': ('Carrier preload, ad SDKs and app bloat',
+   'Names that phones ask because of the software the carrier or the phone maker put on them, or because of the ad and mediation SDKs inside free apps: nothing a person opened on purpose. Identified in real traffic by registry, certificate and app-traffic records. Ad networks are not here as a category; the large public ad lists do that job.',
+   [
+    ('Carrier and OEM app preload and on-device ads (ironSource Aura, AppLovin Array, Siprocal, the Digital Turbine installer under a Telcel name, DialMyApp)', ['isappcloud.com','al-array.com','arrayengine.com','siprocal.com','siprocalads.com','appamx.com','dialmyapp.com']),
+    ('Ad mediation and exchange SDKs inside free apps (TopOn, BidMachine, Airfind)', ['mosspf.net','mosspf.com','mossru.com','bktpcross.com','toponad.com','blueduckredapple.com','airfind.com']),
+    ('Ad tags and abandoned callback names phones still ask', ['qzwxrtyk.com','ertyuioq.com','app-null.com']),
+   ]),
 }
 os.makedirs(ROOT + '/lists', exist_ok=True)
 counts = {}

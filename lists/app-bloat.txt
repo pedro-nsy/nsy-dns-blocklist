@@ -1,0 +1,29 @@
+! Title: NSY DNS Blocklist: Carrier preload, ad SDKs and app bloat
+! Description: Names that phones ask because of the software the carrier or the phone maker put on them, or because of the ad and mediation SDKs inside free apps: nothing a person opened on purpose. Identified in real traffic by registry, certificate and app-traffic records. Ad networks are not here as a category; the large public ad lists do that job.
+! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
+! Last modified: 2026-09-30
+! Entries: 17
+! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
+!
+! Carrier and OEM app preload and on-device ads (ironSource Aura, AppLovin Array, Siprocal, the Digital Turbine installer under a Telcel name, DialMyApp)
+||isappcloud.com^
+||al-array.com^
+||arrayengine.com^
+||siprocal.com^
+||siprocalads.com^
+||appamx.com^
+||dialmyapp.com^
+!
+! Ad mediation and exchange SDKs inside free apps (TopOn, BidMachine, Airfind)
+||mosspf.net^
+||mosspf.com^
+||mossru.com^
+||bktpcross.com^
+||toponad.com^
+||blueduckredapple.com^
+||airfind.com^
+!
+! Ad tags and abandoned callback names phones still ask
+||qzwxrtyk.com^
+||ertyuioq.com^
+||app-null.com^
