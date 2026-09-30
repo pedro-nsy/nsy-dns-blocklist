@@ -2,7 +2,7 @@
 ! Description: Netflix, ViX and the other TV, film and live-video services reachable from Mexico, the Mediastream platform used by Latin American live TV and radio apps, and the video hosts of the platforms that share their apex with other services (Apple TV+, Prime Video, Mercado Play).
 ! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
 ! Last modified: 2026-09-30
-! Entries: 141
+! Entries: 145
 ! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
 !
 ! Netflix (names from v2fly/domain-list-community, data/netflix)
@@ -159,3 +159,9 @@
 ||odysee.live^
 ||odycdn.com^
 ||coub.com^
+!
+! Video sources of Mi Video (Xiaomi) and Anime Center from their app packages: MangoTV, the Xiaomi video host (hostname only), animecenter.network, animeflv.net
+||mgtv.com^
+||globalvideo.cdn.pandora.intl.xiaomi.com^
+||animecenter.network^
+||animeflv.net^

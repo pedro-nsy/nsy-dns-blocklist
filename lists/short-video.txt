@@ -2,7 +2,7 @@
 ! Description: Short-video and micro-drama apps beyond TikTok itself (Kwai, SnackVideo, Likee, Bigo Live, Lemon8, the short-drama apps), plus the ByteDance hosts that CapCut and TikTok content load from.
 ! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
 ! Last modified: 2026-09-30
-! Entries: 69
+! Entries: 82
 ! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
 !
 ! Clapper
@@ -83,3 +83,18 @@
 ||lemon8cdn.com^
 ||xiaohongshu.com^
 ||xhscdn.com^
+!
+! Short-drama and short-video apps on the Mexico charts of 2026-09-30 (NiceTV, Halo Reels, ReelMax, Drama World, the FreeReels and DramaWave video hosts, Seekee) and KwaiCut, from the apps own sites and public app traffic data (AppGoblin, BeVigil)
+||nicetvs.net^
+||haloreels.net^
+||shortreelmax.com^
+||dramafuture.com^
+||vodplayvideo.net^
+||vodplayvideo.com^
+||vodglcdn.com^
+||buscari.com^
+||seekee.ai^
+||newsparkking.com^
+||kwai-cut.com^
+||kittyfunny.com^
+||inkuai.com^

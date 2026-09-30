@@ -2,7 +2,7 @@
 ! Description: Apps and sites that play or download YouTube, TikTok, Facebook and Instagram video through their own servers, so they keep working when the platforms themselves are blocked by name: Snaptube and Lark Player (Mobiuspace), Pure Tuber, Vidmate, TubeMate, YMusic, NewPipe, ReVanced, the web downloaders, and the public Invidious and Piped instances.
 ! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
 ! Last modified: 2026-09-30
-! Entries: 79
+! Entries: 91
 ! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
 !
 ! Snaptube and Lark Player (Mobiuspace) and their backends
@@ -93,3 +93,17 @@
 ||darkness.services^
 ||orangenet.cc^
 ||libretube.dev^
+!
+! YouTube front ends on the Mexico charts (DailyTube, GreenTuber) and the PeerTube hosts GreenTuber falls back to
+||aimxhub.com^
+||dewrain.life^
+||akisinn.info^
+||vaicore.store^
+||dailytube.pro^
+||yougreentube.com^
+||utuber.top^
+||greentuapp.com^
+||yougreentube.ru^
+||greentuber.net^
+||framatube.org^
+||sepiasearch.org^

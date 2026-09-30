@@ -2,7 +2,7 @@
 ! Description: Threads, Reddit, Tumblr, Bluesky and 9GAG. Facebook, Instagram, TikTok and Snapchat are on the large public social lists and are not repeated here.
 ! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
 ! Last modified: 2026-09-30
-! Entries: 12
+! Entries: 22
 ! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
 !
 ! Threads, Reddit, Tumblr, Bluesky, 9GAG
@@ -18,3 +18,15 @@
 ||bsky.network^
 ||9gag.com^
 ||9cache.com^
+!
+! Random video chat and live apps on the Mexico charts (OmeTV, SuperLive), from the apps own sites and public app traffic data
+||ome.tv^
+||ometv.chat^
+||point-of-entry.com^
+||apps-host.com^
+||null-point.com^
+||foto-pin.com^
+||superlivellc.com^
+||apispl2.link^
+||sprlv.link^
+||superlivechat.tv^
