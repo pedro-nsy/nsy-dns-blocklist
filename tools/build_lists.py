@@ -26,7 +26,7 @@ LISTS = {
    'Short-video and micro-drama apps beyond TikTok itself, plus the ByteDance hosts that CapCut and TikTok content load from.',
    [('Clapper', ['myclapper.com']),
     ('CapCut and ByteDance content hosts', ['capcutapi.com','capcut.com','byteoversea.com','byteoversea.net','ibyteimg.com','byteimg.com']),
-    ('Short drama apps', ['mydramawave.com','netshort.com','netshort.net','dramaboxdb.com'])]),
+    ('Short drama apps (ReelShort, DramaBox, ShortMax, GoodShort, FlexTV, NetShort, DramaWave, FreeReels, My Drama, Kalos TV, MoboReels, TopShort, Sereal+, Playlet, Stardust TV, FlickReels, FlareFlow, Melolo, HotMini, BlinkDrama)', ['reelshort.com','crazymaplestudios.com','dramabox.com','dramaboxdb.com','shorttv.live','goodshort.com','goodreels.com','flextv.cc','netshort.com','netshort.net','mydramawave.com','free-reels.com','my-drama.com','kalostv.com','moboreels.com','cdreader.com','topshortapp.com','tikshortsbox.com','sereal.com','serealplus.com','serealshort.com','playlet.com','stardusttv.cc','stardust-tv.com','flickreels.net','farsunpteltd.com','flareflow.tv','melolo.org','hotminidrama.com','blinkdrama.life'])]),
  'shopping': ('Shopping apps',
    'Temu and its content network.',
    [('Temu', ['temu.com','kwcdn.com'])]),
