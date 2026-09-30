@@ -13,7 +13,7 @@ LISTS = {
     ('Sister apps of the families above, from their store pages and public app traffic data (AppGoblin)', ['matrixmobile.net','freevpnapp.net','vpnmelon.com','securesignal.app','alarmpushes.com','fastv.mobi']),
     ("Proton VPN (from Proton's own app source on GitHub: alternative-routing bootstrap, download host, server names)", ['protonpro.xyz','protondownload.com','protonvpn.net']),
     ('VPN app families behind the small apps (publisher sites, the FOCI 2025 paper, app store pages)', ['inconnecting.com','turbovpn.com','secureguardpro.com','materialsofpro.com','snapillustrates.com','autumnbreeze.co','signalsecurevpn.com','xvpn.io','potatovpn.io','freeconnectedlimited.com','vpnsuper.com','unlimitedvpn.im','hvnstore.com','surfsharkstatus.com','uymgg1.com','sir90hl.com','s0r4nd0m.com','hsselite.com','northghost.com','aura-servers.com','cloudflare-gateway.com','cloudflareportal.com','cloudflareok.com','cloudflarecp.com','zerotier.com','psiphon-conduit.com','bright-sdk.com','h-cdn.com','holax.io','opera-proxy.net','alohabrowser.com','alohaprofile.com']),
-    ('VPN app backends seen in real traffic, asked only by phones that also ask VPN names', ['okvmm.tech','stspipe.net','assetsconfigcdn.org']),
+    ('VPN app backends seen in real traffic, asked only by phones that also ask VPN names', ['okvmm.tech','stspipe.net','assetsconfigcdn.org','firwinds.site']),
     ('What-is-my-IP services that VPN apps use to verify their exit', ['ipify.org','ipinfo.io','ipapi.co','ip-api.com']),
    ]),
  'encrypted-dns': ('Encrypted DNS resolvers (DoH and DoT)',
@@ -71,6 +71,7 @@ LISTS = {
    'Apps and sites that play or download YouTube, TikTok, Facebook and Instagram video through their own servers, so they keep working when the platforms themselves are blocked by name: Snaptube and Lark Player (Mobiuspace), Pure Tuber, Vidmate, TubeMate, YMusic, NewPipe, ReVanced, the web downloaders, and the public Invidious and Piped instances.',
    [
     ('Snaptube and Lark Player (Mobiuspace) and their backends', ['snaptube.com','snaptube.app','snaptubead.com','snaptubeapp.com','snapdownloads.com','snaptube.in','ad-snaptube.app','snaptube.mx','falconnet.app','ad-vastvideo.com','larkplayer.com','larkplayerapp.com','larkgame.com','mobiuspace.net','mobiuspace.com']),
+    ('Snaptube and Lark Player backend names that share certificates with snaptube.app and larkplayerapp.com (certificate transparency, 2026-09-30)', ['thejeu.com','themsic.com','gdflpr.com','gdfsnt.com']),
     ('Other YouTube clients and video downloader apps (Pure Tuber, Vidmate, TubeMate, YMusic, NewPipe, ReVanced, InsTube, Videoder, UC Browser)', ['puretuber.com','premiumtuberapp.com','vidmateapp.com','vdmapk.com','vidssave.com','facebdownloader.com','fasttik.com','igvideodownloader.net','vidmate.net','tubemate.net','ymusic.io','newpipe.net','revanced.app','vanced.app','instube.com','videoder.com','videoder.net','ucweb.com','ucshare.app']),
     ('Web downloaders (TikTok, YouTube, Tubidy)', ['snaptik.app','ssstik.io','ssstik.link','ssstwitter.com','reelsvideo.io','tikmate.online','y2mate.com','y2mate.is','yt1s.com','savefrom.net','sfrom.net','tubidy.ws','tubidy.llc','tubidy.cool','tubidy.mobi','tubidy.com','tubidy.buzz','tubidy.cv']),
     ('Invidious and Piped instances (third-party YouTube front ends that proxy the video through their own hosts; instance lists read 2026-09-30)', ['invidious.io','nadeko.net','nerdvpn.de','f5.si','chocolatemoo53.com','tiekoetter.com','piped.video','kavin.rocks','leptons.xyz','nosebs.ru','privacy.com.de','adminforge.de','piped.yt','drgns.space','ggtyler.dev','owo.si','ducks.party','codespace.cz','reallyaweso.me','private.coffee','darkness.services','orangenet.cc','libretube.dev']),
@@ -94,6 +95,7 @@ LISTS = {
     ('Konami (eFootball)', ['konami.net','konami.com']),
     ('Electronic Arts (EA SPORTS FC Mobile)', ['ea.com','easports.com','eamobile.com','tnt-ea.com']),
     ('Playrix, Zynga, Voodoo, Kwalee, Lion Studios', ['playrix.com','zynga.com','zyngagames.com','voodoo.io','kwalee.com','lionstudios.cc']),
+    ('Game backends seen in real traffic (Tencent Level Infinite for PUBG Mobile; a casual-game publisher)', ['listdl.com','dailyinnovation.biz']),
    ]),
 }
 os.makedirs(ROOT + '/lists', exist_ok=True)
