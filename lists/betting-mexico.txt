@@ -1,0 +1,21 @@
+! Title: NSY DNS Blocklist: Betting sites, Mexico
+! Description: Sports betting and casino sites that operate under .mx names, some of which the large gambling lists did not carry when we added them.
+! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
+! Last modified: 2026-09-30
+! Entries: 13
+! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
+!
+! Sites
+||caliente.mx^
+||codere.mx^
+||playdoit.mx^
+||betano.mx^
+||bet365.mx^
+||strendus.com.mx^
+||winpot.mx^
+||ganabet.mx^
+||betway.mx^
+||betsson.mx^
+||betcris.mx^
+||rushbet.mx^
+||foliatti.mx^

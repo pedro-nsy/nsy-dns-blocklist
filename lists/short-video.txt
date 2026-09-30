@@ -1,0 +1,23 @@
+! Title: NSY DNS Blocklist: Short video and short drama apps
+! Description: Short-video and micro-drama apps beyond TikTok itself, plus the ByteDance hosts that CapCut and TikTok content load from.
+! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
+! Last modified: 2026-09-30
+! Entries: 11
+! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
+!
+! Clapper
+||myclapper.com^
+!
+! CapCut and ByteDance content hosts
+||capcutapi.com^
+||capcut.com^
+||byteoversea.com^
+||byteoversea.net^
+||ibyteimg.com^
+||byteimg.com^
+!
+! Short drama apps
+||mydramawave.com^
+||netshort.com^
+||netshort.net^
+||dramaboxdb.com^

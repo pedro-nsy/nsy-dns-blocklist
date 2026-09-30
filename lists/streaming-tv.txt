@@ -1,0 +1,21 @@
+! Title: NSY DNS Blocklist: TV and film streaming
+! Description: Netflix and the Mediastream platform used by Latin American live TV and radio apps.
+! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
+! Last modified: 2026-09-30
+! Entries: 11
+! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
+!
+! Netflix (names from v2fly/domain-list-community, data/netflix)
+||netflix.com^
+||netflix.net^
+||netflix.ca^
+||nflxext.com^
+||nflximg.com^
+||nflximg.net^
+||nflxsearch.net^
+||nflxso.net^
+||nflxvideo.net^
+||netflix.com.edgesuite.net^
+!
+! Mediastream
+||mdstrm.com^

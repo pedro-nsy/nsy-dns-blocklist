@@ -1,0 +1,10 @@
+! Title: NSY DNS Blocklist: Pinterest
+! Description: Pinterest and its image hosts.
+! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
+! Last modified: 2026-09-30
+! Entries: 2
+! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
+!
+! Pinterest
+||pinterest.com^
+||pinimg.com^

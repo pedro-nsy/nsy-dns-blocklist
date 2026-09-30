@@ -1,0 +1,13 @@
+! Title: NSY DNS Blocklist: YouTube
+! Description: YouTube, its video hosts and its app API. Blocking googlevideo.com also stops YouTube video embedded in other sites.
+! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
+! Last modified: 2026-09-30
+! Entries: 5
+! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
+!
+! YouTube
+||youtube.com^
+||youtu.be^
+||ytimg.com^
+||googlevideo.com^
+||youtubei.googleapis.com^

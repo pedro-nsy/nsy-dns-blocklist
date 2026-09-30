@@ -1,0 +1,10 @@
+! Title: NSY DNS Blocklist: Shopping apps
+! Description: Temu and its content network.
+! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
+! Last modified: 2026-09-30
+! Entries: 2
+! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
+!
+! Temu
+||temu.com^
+||kwcdn.com^

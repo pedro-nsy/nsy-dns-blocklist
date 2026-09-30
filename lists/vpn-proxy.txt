@@ -1,0 +1,68 @@
+! Title: NSY DNS Blocklist: VPN and proxy apps
+! Description: Domains of VPN, proxy and anonymizer apps and services: the well-known brands, and small mobile VPN apps we found in real traffic that the big public lists did not carry when we found them.
+! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
+! Last modified: 2026-09-30
+! Entries: 58
+! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
+!
+! Well-known services
+||protonvpn.com^
+||protonvpn.ch^
+||vpn-api.proton.me^
+||surfshark.com^
+||tunnelbear.com^
+||superunlimited.com^
+||mullvad.net^
+||sec-tunnel.com^
+||nordvpn.com^
+||nordcdn.com^
+||expressvpn.com^
+||windscribe.com^
+||hotspotshield.com^
+||anchorfree.com^
+||cyberghostvpn.com^
+||privateinternetaccess.com^
+||hide.me^
+||hidemyass.com^
+||zenmate.com^
+||betternet.co^
+||psiphon.ca^
+||psiphon3.com^
+||cloudflareclient.com^
+||getoutline.org^
+||ivpn.net^
+||purevpn.com^
+||vyprvpn.com^
+||torguard.net^
+||atlasvpn.com^
+||ultrasurf.us^
+||lantern.io^
+||getlantern.org^
+||torproject.org^
+||x-vpn.com^
+||turbovpn.co^
+||vpnproxymaster.com^
+||hola.org^
+||holavpn.net^
+||urban-vpn.com^
+||browsec.com^
+||speedify.com^
+!
+! Small mobile VPN apps and their backends, seen in real traffic
+||luxvpn.cc^
+||vpnlux.cc^
+||vpnrapid.net^
+||thundervpn.net^
+||thundervpnwin.com^
+||free-signal.com^
+||melonvpn.com^
+||suinfra.com^
+||ourip.info^
+||mobilejump.mobi^
+||gofastvpn.com^
+||starwayvpn.xyz^
+||astravpn.xyz^
+||funsol.cloud^
+||bolt-backup.matee-b04.workers.dev^
+||vpnpremiums.com^
+||us-central1-vpn-platform-prod.cloudfunctions.net^
