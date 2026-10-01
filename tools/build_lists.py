@@ -101,6 +101,12 @@ LISTS = {
     ('Playrix, Zynga, Voodoo, Kwalee, Lion Studios', ['playrix.com','zynga.com','zyngagames.com','voodoo.io','kwalee.com','lionstudios.cc']),
     ('Game backends seen in real traffic (Tencent Level Infinite for PUBG Mobile; a casual-game publisher)', ['listdl.com','dailyinnovation.biz']),
    ]),
+ 'piracy-streaming': ('Pirate film and series streaming',
+   'Free pirate film and series sites in Spanish and Latin American Spanish, their brand and sister domains, and the video file hosts their players stream from. Every name was seen in real traffic or read on the site itself; the large anti-piracy lists did not carry them when we added them. Use it beside HaGeZi Anti-Piracy, not instead of it.',
+   [
+    ('PeliSmart (smartpelis.tv): the site, the brand its Telegram channel uses, and the anime sister its pages link to', ['smartpelis.tv','pelismart.tv','flvanime.org']),
+    ('Video hosts the players stream from (every player on a PeliSmart film page is a fastream embed, served from sNN.fastream.to)', ['fastream.to']),
+   ]),
  'app-bloat': ('Carrier preload, ad SDKs and app bloat',
    'Names that phones ask because of the software the carrier or the phone maker put on them, or because of the ad and mediation SDKs inside free apps: nothing a person opened on purpose. Identified in real traffic by registry, certificate and app-traffic records. Ad networks are not here as a category; the large public ad lists do that job.',
    [
