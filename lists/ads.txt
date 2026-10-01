@@ -1,0 +1,11 @@
+! Title: NSY DNS Blocklist: Ad networks the large ad lists miss
+! Description: Ad and pop-under network names seen in real traffic that HaGeZi Multi PRO did not carry when we added them. A gap-filler: use it beside a large ad list, not instead of one.
+! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
+! Last modified: 2026-10-01
+! Entries: 3
+! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
+!
+! Pop-under network loaded on every page of a pirate film site (PeliSmart); its home pages redirect to google.com and its sister names share the same servers
+||refusedconsulting.com^
+||articleexchangedquell.com^
+||magnificentbearing.com^

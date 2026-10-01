@@ -123,8 +123,13 @@ LISTS = {
     ("Video host family Vidmoly (domains from the ResolveURL project's plugin file, read 2026-10-01; names already on HaGeZi Anti-Piracy or NextDNS streaming-video left out)", ["vidmoly.to", "vidmoly.org"]),
     ("Video host family Netu, HQQ and Waaw (domains from the ResolveURL project's plugin file, read 2026-10-01; names already on HaGeZi Anti-Piracy or NextDNS streaming-video left out)", ["waaw.ac", "netu.ac", "hqq.ac", "waaw.tv", "waaw.to", "netu.to", "hqq.to", "doplay.store", "stbnetu.xyz", "brightmindwave.com", "ncdn22.xyz", "oyohd.one", "player.sorozatok.me", "vidmoly.cam", "0gomovies.beer"]),
    ]),
+ 'ads': ('Ad networks the large ad lists miss',
+   'Ad and pop-under network names seen in real traffic that HaGeZi Multi PRO did not carry when we added them. A gap-filler: use it beside a large ad list, not instead of one.',
+   [
+    ('Pop-under network loaded on every page of a pirate film site (PeliSmart); its home pages redirect to google.com and its sister names share the same servers', ['refusedconsulting.com','articleexchangedquell.com','magnificentbearing.com']),
+   ]),
  'app-bloat': ('Carrier preload, ad SDKs and app bloat',
-   'Names that phones ask because of the software the carrier or the phone maker put on them, or because of the ad and mediation SDKs inside free apps: nothing a person opened on purpose. Identified in real traffic by registry, certificate and app-traffic records. Ad networks are not here as a category; the large public ad lists do that job.',
+   'Names that phones ask because of the software the carrier or the phone maker put on them, or because of the ad and mediation SDKs inside free apps: nothing a person opened on purpose. Identified in real traffic by registry, certificate and app-traffic records. Ad networks are not here as a category; the large public ad lists do that job, and the gaps we find in them go on the ads list.',
    [
     ('Carrier and OEM app preload and on-device ads (ironSource Aura, AppLovin Array, Siprocal, the Digital Turbine installer under a Telcel name, DialMyApp)', ['isappcloud.com','al-array.com','arrayengine.com','siprocal.com','siprocalads.com','appamx.com','dialmyapp.com']),
     ('Ad mediation and exchange SDKs inside free apps (TopOn, BidMachine, Airfind)', ['mosspf.net','mosspf.com','mossru.com','bktpcross.com','toponad.com','blueduckredapple.com','airfind.com']),
