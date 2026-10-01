@@ -2,7 +2,7 @@
 ! Description: Free pirate film and series sites in Spanish and Latin American Spanish, their brand and sister domains, and the video file hosts their players stream from. The sites were seen in real traffic or read on their own pages; the video-host names come from the ResolveURL project. Only names the large anti-piracy lists did not carry when we added them. Use it beside HaGeZi Anti-Piracy, not instead of it.
 ! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
 ! Last modified: 2026-10-01
-! Entries: 387
+! Entries: 386
 ! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
 !
 ! PeliSmart (smartpelis.tv): its own domains and redirects, MagisTV 24 (same WordPress pages with the same creation times, same Cloudflare nameservers), and the anime sister its pages link to
@@ -25,7 +25,6 @@
 ||cinehdplus.gratis^
 ||verhdlink.cam^
 ||playlatinsrc.co^
-||cuevana.pro^
 !
 ! Video hosts the players stream from: Fastream (every player on a PeliSmart film page is a fastream embed, served from sNN.fastream.to)
 ||fastream.to^
