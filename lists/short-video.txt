@@ -1,8 +1,8 @@
 ! Title: NSY DNS Blocklist: Short video and short drama apps
 ! Description: Short-video and micro-drama apps beyond TikTok itself (Kwai, SnackVideo, Likee, Bigo Live, Lemon8, the short-drama apps), plus the ByteDance hosts that CapCut and TikTok content load from.
 ! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
-! Last modified: 2026-09-30
-! Entries: 82
+! Last modified: 2026-10-01
+! Entries: 83
 ! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
 !
 ! Clapper
@@ -64,6 +64,7 @@
 ||adaether.com^
 ||mythad.com^
 ||dropz-k.com^
+||xxpkg.com^
 !
 ! Likee, Bigo Live and Hago (JOYY), Lemon8 (ByteDance), rednote
 ||likee.video^
