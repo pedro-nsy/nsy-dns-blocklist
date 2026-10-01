@@ -1,7 +1,7 @@
 ! Title: NSY DNS Blocklist: Carrier preload, ad SDKs and app bloat
-! Description: Names that phones ask because of the software the carrier or the phone maker put on them, or because of the ad and mediation SDKs inside free apps: nothing a person opened on purpose. Identified in real traffic by registry, certificate and app-traffic records. Ad networks are not here as a category; the large public ad lists do that job.
+! Description: Names that phones ask because of the software the carrier or the phone maker put on them, or because of the ad and mediation SDKs inside free apps: nothing a person opened on purpose. Identified in real traffic by registry, certificate and app-traffic records. Ad networks are not here as a category; the large public ad lists do that job, and the gaps we find in them go on the ads list.
 ! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
-! Last modified: 2026-09-30
+! Last modified: 2026-10-01
 ! Entries: 17
 ! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
 !
