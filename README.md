@@ -30,7 +30,7 @@ Every name in these lists is 1 of 3 things: a service's own published domain, a 
 | **Pinterest** | Pinterest and its image hosts | [`lists/pinterest.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/pinterest.txt) |
 | **Social apps beyond the big four** | Threads, Reddit, Tumblr, Bluesky and 9GAG (Facebook, Instagram, TikTok and Snapchat are on the large social lists) | [`lists/social.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/social.txt) |
 | **Mobile game publishers** | Roblox, Free Fire, PUBG Mobile, Call of Duty Mobile, Supercell, Mobile Legends, Fortnite, Genshin, Candy Crush, Pokemon GO, 8 Ball Pool, Subway Surfers, Among Us, eFootball, EA SPORTS FC and the studios behind them | [`lists/games-mobile.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/games-mobile.txt) |
-| **Pirate film and series streaming** | Free pirate film and series sites in Spanish and Latin American Spanish, their sister domains, and the video file hosts their players stream from, found in real traffic and missing from the large anti-piracy lists | [`lists/piracy-streaming.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/piracy-streaming.txt) |
+| **Pirate film and series streaming** | Free pirate film and series sites in Spanish and Latin American Spanish, their sister domains, and the video file hosts their players stream from (Fastream, Streamwish, VidHide, VOE, DoodStream, Streamtape, Mixdrop and others), only names the large anti-piracy lists do not carry | [`lists/piracy-streaming.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/piracy-streaming.txt) |
 | **Carrier preload, ad SDKs and app bloat** | The carriers' and phone makers' app-preload machinery, the ad mediation SDKs inside free apps, and abandoned names phones still call | [`lists/app-bloat.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/app-bloat.txt) |
 | **YouTube clients and video downloaders** | Snaptube, Lark Player, Pure Tuber, Vidmate, TubeMate, the web downloaders, and the public Invidious and Piped instances that keep YouTube playing when YouTube itself is blocked | [`lists/video-downloaders.txt`](https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/video-downloaders.txt) |
 
@@ -63,6 +63,8 @@ Netflix names come from [v2fly/domain-list-community](https://github.com/v2fly/d
 Some VPN app backend names come from the public app traffic data at [AppGoblin](https://appgoblin.info).
 
 Several streaming, social and video-platform names were checked against the per-service definitions of [NextDNS](https://github.com/nextdns/services) and [AdGuard](https://github.com/AdguardTeam/HostlistsRegistry), and the VPN app families against the FOCI 2025 paper "Hidden Links" and the publishers' own pages. The Invidious and Piped instance names come from the projects' own public instance lists.
+
+The video-host names in the pirate streaming list come from the plugin files of the [ResolveURL](https://github.com/Gujal00/ResolveURL) project, and some of its Spanish-language site names were named as sources by the [WebStreamr](https://github.com/webstreamr/webstreamr) project; each site was then read on its own page.
 
 Maintained by Neufeld Systems.
 
