@@ -2,7 +2,7 @@
 ! Description: Sports betting and online casino sites aimed at Mexico: the ones under .mx names, and offshore casinos that target Mexican players under numbered mirror names, which the large gambling lists did not carry when we added them.
 ! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
 ! Last modified: 2026-10-02
-! Entries: 50
+! Entries: 111
 ! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
 !
 ! Sites
@@ -40,6 +40,15 @@
 ||hoy777.net^
 ||hoy777.vip^
 ||hoy777casino.com^
+||hoy777.io^
+||hoy7777.com^
+||444hoy.com^
+||555hoy.com^
+||666hoy.com^
+||mars.bingo^
+||mx-hoy777.com^
+||mxhoy777.com^
+||hoy777-juega-mx.com^
 !
 ! Sister casinos on the same naming pattern and the same game launcher: MEXBOSS and Hoy7 (Hoy 777 Casino)
 ||mexboss.com^
@@ -62,3 +71,61 @@
 ||hoy111.net^
 ||hoy77.net^
 ||hoy88.net^
+!
+! Other casinos of the same licence holder (Pistis Trade N.V., Curacao), each read on its own page as a casino aimed at Mexico, with their referral hosts and their app download hosts
+||mexswin04.com^
+||mexwincasino.com^
+||mexbosss.me^
+||mexboss21.com^
+||mex-vip.org^
+||okbono.com^
+||mexok.mx^
+||mxluck.mx^
+||mxfun.mx^
+||bonos777.mx^
+||okgana.mx^
+||okgana.biz^
+||reymxs.biz^
+||mxn777.mx^
+||hoywin.com^
+||hoywin3.com^
+||hoywin11.com^
+||mx7k4.com^
+||mx7k.me^
+||mx711.club^
+||mx711games.com^
+||mx-711.com^
+||rey11.com^
+||reylucky2.com^
+||winmxco04.com^
+||betmxsgames.com^
+||bono777win.com^
+||bcxgcv.icu^
+||bq6yt7.xyz^
+||mktmx.com^
+||livemxapp.com^
+||google-app.mx^
+||wehoprint.com^
+!
+! The platforms these casinos run on: Betby's sportsbook hosts and a casino game launcher (urlscan shows only online casinos calling it)
+||invisiblesport.com^
+||a8r.games^
+!
+! Other casinos and sportsbooks aimed at Mexico that the smaller gambling lists did not carry on 2026-10-02 (licensed and offshore; each read on its own page)
+||betmaster.mx^
+||jugabet.mx^
+||campobet.mx^
+||pickwin.mx^
+||sportiumbet.mx^
+||gana777.mx^
+||fun88mx.app^
+||p999.com^
+||888novo.com^
+||rbd777.bet^
+||aaaawin.app^
+||mx777casino.com^
+||mx777casino.net^
+||casino777mx.net^
+||casinomx777.com^
+||mxm777mx.com^
+||mx-mx777.com^
