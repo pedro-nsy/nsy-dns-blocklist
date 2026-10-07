@@ -17,6 +17,8 @@ LISTS = {
     ('Telemetry, ad, storage and backend hosts of free VPN apps, seen in real traffic and asked almost only by phones that also use VPN apps', ['tk0x1.com','envoy-track.core-002-ew4.ov1o.com','app-ads-services.com','ad-host-backup-america.oss-us-west-1.aliyuncs.com','new-sign-xghwyaxeiq-uc.a.run.app']),
     ('What-is-my-IP services that VPN apps use to verify their exit', ['ipify.org','ipinfo.io','ipapi.co','ip-api.com']),
     ('Tor and Orbot helper services the large lists did not carry: bridge distribution through a DNS tunnel, and the registration service of the conjure transport', ['bypasscensorship.org','ruhnama.net','refraction.network']),
+    ('Small VPN and proxy apps on the Mexico charts of 2026-10-07 whose domains carry no vpn in their names (store listings and public app traffic data)', ['orioinxway.com','singsingsongsong.com','fortiserviceglobe.com','968989.xyz','edgepulse.top','teslaaccelerator.com','icqnetworkrising.digital','nocturnenetcceaavmfss.com','browsers.work']),
+    ('Cloud browsers that fetch pages on a remote server (Puffin)', ['cloudmosa.net','flashbrowser.com']),
    ]),
  'encrypted-dns': ('Encrypted DNS resolvers (DoH and DoT)',
    'Public DNS-over-HTTPS and DNS-over-TLS resolver names that phones and browsers use to get around a local DNS filter.',
@@ -56,7 +58,7 @@ LISTS = {
    'Short-video and micro-drama apps beyond TikTok itself (Kwai, SnackVideo, Likee, Bigo Live, Lemon8, the short-drama apps), plus the ByteDance hosts that CapCut and TikTok content load from.',
    [
     ('Clapper', ['myclapper.com']),
-    ('CapCut and ByteDance content hosts', ['capcutapi.com','capcut.com','byteoversea.com','byteoversea.net','ibyteimg.com','byteimg.com']),
+    ('CapCut and ByteDance content hosts', ['capcutapi.com','capcut.com','byteoversea.com','byteoversea.net','ibyteimg.com','byteimg.com','byteglb.com']),
     ('Short drama apps (ReelShort, DramaBox, ShortMax, GoodShort, FlexTV, NetShort, DramaWave, FreeReels, My Drama, Kalos TV, MoboReels, TopShort, Sereal+, Playlet, Stardust TV, FlickReels, FlareFlow, Melolo, HotMini, BlinkDrama)', ['reelshort.com','crazymaplestudios.com','dramabox.com','dramaboxdb.com','shorttv.live','goodshort.com','goodreels.com','flextv.cc','netshort.com','netshort.net','mydramawave.com','free-reels.com','my-drama.com','kalostv.com','moboreels.com','cdreader.com','topshortapp.com','tikshortsbox.com','sereal.com','serealplus.com','serealshort.com','playlet.com','stardusttv.cc','stardust-tv.com','flickreels.net','farsunpteltd.com','flareflow.tv','melolo.org','hotminidrama.com','blinkdrama.life']),
     ('Kwai and SnackVideo (Kuaishou), with the ad and analytics hosts the app asks beside its own', ['kwai.com','kwai.net','kwai-pro.com','kwaipros.com','yximgs.com','kwimgs.com','kw.ai','snackvideo.com','kuaishou.com','gifshow.com','ksapisrv.com','kslawin.com','kwd.100.app','ap4r.com','adaether.com','mythad.com','dropz-k.com','xxpkg.com']),
     ('Likee, Bigo Live and Hago (JOYY), Lemon8 (ByteDance), rednote', ['likee.video','like.video','likeevideo.com','like-video.com','likeevideo.ru','likeimo.tech','liketech.tech','hzmklvdieo.com','bigo.tv','bigolive.tv','bigovideo.tv','bigo.sg','ihago.net','lemon8-app.com','lemon8cdn.com','xiaohongshu.com','xhscdn.com']),

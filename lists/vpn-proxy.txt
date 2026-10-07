@@ -2,7 +2,7 @@
 ! Description: Domains of VPN, proxy and anonymizer apps and services: the well-known brands, the small mobile VPN apps we found in real traffic that the big public lists did not carry when we found them, the publisher families behind them, and the IP-check services the apps use to verify their exit.
 ! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
 ! Last modified: 2026-10-07
-! Entries: 129
+! Entries: 140
 ! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
 !
 ! Well-known services
@@ -151,3 +151,18 @@
 ||bypasscensorship.org^
 ||ruhnama.net^
 ||refraction.network^
+!
+! Small VPN and proxy apps on the Mexico charts of 2026-10-07 whose domains carry no vpn in their names (store listings and public app traffic data)
+||orioinxway.com^
+||singsingsongsong.com^
+||fortiserviceglobe.com^
+||968989.xyz^
+||edgepulse.top^
+||teslaaccelerator.com^
+||icqnetworkrising.digital^
+||nocturnenetcceaavmfss.com^
+||browsers.work^
+!
+! Cloud browsers that fetch pages on a remote server (Puffin)
+||cloudmosa.net^
+||flashbrowser.com^
