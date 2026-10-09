@@ -19,6 +19,7 @@ LISTS = {
     ('Tor and Orbot helper services the large lists did not carry: bridge distribution through a DNS tunnel, and the registration service of the conjure transport', ['bypasscensorship.org','ruhnama.net','refraction.network']),
     ('Small VPN and proxy apps on the Mexico charts of 2026-10-07 whose domains carry no vpn in their names (store listings and public app traffic data)', ['orioinxway.com','singsingsongsong.com','fortiserviceglobe.com','968989.xyz','edgepulse.top','teslaaccelerator.com','icqnetworkrising.digital','nocturnenetcceaavmfss.com','browsers.work']),
     ('Cloud browsers that fetch pages on a remote server (Puffin)', ['cloudmosa.net','flashbrowser.com']),
+    ('A mobile VPN app family that rotates its control domains: ten names carried by one TLS certificate (api. on each, issued 2026-06-26), the first of them seen in real traffic; the family\'s older domains are in the large bypass lists', ['dullflint.com','rifjub.com','bapfax.com','gridvulture.com','axleape.com','cliffsoot.com','nutelk.com','beamrat.com','dusktether.com','misttungsten.com']),
    ]),
  'encrypted-dns': ('Encrypted DNS resolvers (DoH and DoT)',
    'Public DNS-over-HTTPS and DNS-over-TLS resolver names that phones and browsers use to get around a local DNS filter.',
