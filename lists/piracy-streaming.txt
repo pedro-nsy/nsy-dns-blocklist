@@ -1,7 +1,7 @@
 ! Title: NSY DNS Blocklist: Pirate film and series streaming
 ! Description: Free pirate film and series sites in Spanish and Latin American Spanish, their brand and sister domains, and the video file hosts their players stream from. The sites were seen in real traffic or read on their own pages; the video-host names come from the ResolveURL project. Only names the large anti-piracy lists did not carry when we added them. Use it beside HaGeZi Anti-Piracy, not instead of it.
 ! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
-! Last modified: 2026-10-01
+! Last modified: 2026-10-15
 ! Entries: 386
 ! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
 !

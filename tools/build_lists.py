@@ -66,6 +66,7 @@ LISTS = {
     ('Kwai and SnackVideo (Kuaishou), with the ad and analytics hosts the app asks beside its own', ['kwai.com','kwai.net','kwai-pro.com','kwaipros.com','yximgs.com','kwimgs.com','kw.ai','snackvideo.com','kuaishou.com','gifshow.com','ksapisrv.com','kslawin.com','kwd.100.app','ap4r.com','adaether.com','mythad.com','dropz-k.com','xxpkg.com']),
     ('Likee, Bigo Live and Hago (JOYY), Lemon8 (ByteDance), rednote', ['likee.video','like.video','likeevideo.com','like-video.com','likeevideo.ru','likeimo.tech','liketech.tech','hzmklvdieo.com','bigo.tv','bigolive.tv','bigovideo.tv','bigo.sg','ihago.net','lemon8-app.com','lemon8cdn.com','xiaohongshu.com','xhscdn.com']),
     ('Short-drama and short-video apps on the Mexico charts of 2026-09-30 (NiceTV, Halo Reels, ReelMax, Drama World, the FreeReels and DramaWave video hosts, Seekee) and KwaiCut, from the apps own sites and public app traffic data (AppGoblin, BeVigil)', ['nicetvs.net','haloreels.net','shortreelmax.com','dramafuture.com','vodplayvideo.net','vodplayvideo.com','vodglcdn.com','buscari.com','seekee.ai','newsparkking.com','kwai-cut.com','kittyfunny.com','inkuai.com']),
+    ('Second-tier short-drama and web-novel apps from the same research of 2026-09-30, owner not confirmed on a primary page; drdrab.com and epubgame.com seen in real traffic', ['shorttv.app','drdrab.com','epubgame.com','51changdu.com','minidrama.com','shruisong.cn','tmtreader.com','joyreels.com','freedrama.app','reelsaga.in','dashdramas.com']),
    ]),
  'shopping': ('Shopping apps',
    'Temu and its content network.',

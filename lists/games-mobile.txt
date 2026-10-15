@@ -1,7 +1,7 @@
 ! Title: NSY DNS Blocklist: Mobile game publishers
 ! Description: The publishers and titles behind the games most installed on Android and iPhone in Mexico: Roblox, Free Fire (Garena), PUBG Mobile, Call of Duty Mobile, Supercell, Mobile Legends (Moonton), Fortnite (Epic), Genshin Impact (HoYoverse), Candy Crush (King), Pokemon GO (Niantic, now Scopely), 8 Ball Pool (Miniclip), Subway Surfers (SYBO), Among Us, eFootball (Konami), EA SPORTS FC, Playrix, Zynga, Voodoo, Kwalee and Lion Studios. Whole publisher domains, so their account, support and store pages go too. Ad networks the games share with other apps (AppLovin, Unity Ads, ironSource) are deliberately not here.
 ! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
-! Last modified: 2026-09-30
+! Last modified: 2026-10-15
 ! Entries: 59
 ! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
 !

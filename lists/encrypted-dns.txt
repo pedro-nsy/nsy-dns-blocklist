@@ -1,7 +1,7 @@
 ! Title: NSY DNS Blocklist: Encrypted DNS resolvers (DoH and DoT)
 ! Description: Public DNS-over-HTTPS and DNS-over-TLS resolver names that phones and browsers use to get around a local DNS filter.
 ! Homepage: https://github.com/pedro-nsy/nsy-dns-blocklist
-! Last modified: 2026-09-30
+! Last modified: 2026-10-15
 ! Entries: 29
 ! Syntax: Adblock style. ||example.com^ blocks the domain and all of its subdomains.
 !
