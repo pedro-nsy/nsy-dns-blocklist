@@ -11,6 +11,7 @@
 ! CapCut and ByteDance content hosts
 ||capcutapi.com^
 ||capcut.com^
+||capcutstatic.com^
 ||byteoversea.com^
 ||byteoversea.net^
 ||ibyteimg.com^
